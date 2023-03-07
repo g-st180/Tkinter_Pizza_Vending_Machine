@@ -2,12 +2,12 @@ from tkinter import *
 from PIL import ImageTk,Image
 
 root = Tk()
-root.iconbitmap("C:/Users/Garvit/Downloads/pizza/piz.ico")
+root.iconbitmap("piz.ico")
 root.title('Pizza Vending machine') 
 root.geometry('600x500')
 root.resizable(width=False,height=False)
 
-my_image=ImageTk.PhotoImage(Image.open("C:/Users/Garvit/Downloads/pizza/frame.png"))
+my_image=ImageTk.PhotoImage(Image.open("frame.png"))
 img_label=Label(image=my_image)
 img_label.pack()
 
