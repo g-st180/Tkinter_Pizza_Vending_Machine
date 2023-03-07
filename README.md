@@ -1,31 +1,27 @@
 # Tkinter_Pizza_Vending_Machine
 
 #### Description:
-**My project i.e Pizza Vending machine is a simple GUI based program that displays an interface prompting for pizza toppings with a fixed base price that is 10 dollars, based on inputs it outputs bill in the same interface itself. (Module used for GUI is Tkinter)**
-
-###### main
-- Our main function includes onlt one function call i.e `Toppings_GUI`
-
-###### Toppings_GUI
-
-- First of all instanciating the Tk class to root, the basic structure of interface is created
-- Some Variables are initialised globally so as to use them in different functions, and not create a mess
-- The foreground image was picked up from [Pizza](https://www.freeiconspng.com/img/19313)
-- All the toppings were initialised as **Intvar** and Checkbuttons for GUI with **onvalue** as 1 and **offvalue** as 0
-- Finally one button using **Label** was inserted to generate the Bill amount for user using
-`clear`,
-`generate_Bill`
+**A simple GUI based program that displays an interface prompting the user for pizza toppings with a fixed base price that is 10 dollars, based on inputs it outputs bill amount in the same interface itself. (Module used for GUI is Tkinter)**
 
 
-###### clear 
+<img src="https://user-images.githubusercontent.com/114145569/223409671-cfba4256-3f0b-4944-9847-896b7da6ca71.png" width=40% height=40%>
 
-* The sole task of this function is to take input from the user as Checkbuttons in the interface with 
-`Var.get()`
-,set their value to all unckecked again for another round and generate the bill amount.
-* It consists of an output Label that showcase the Bill amount in dollars
 
-###### generate_Bill
+#### Interface
 
-+ This function takes 5 inputs as IntVar from checkbuttons saved earlier in **clear** function adn consists of initialised dictionary with toppings as keys and their price as values
-+ If any of the toppings was checked then it's price is added to the base price(i.e 10$) accordingly
-+ Unlike other Functions this function return The bill amount
+- The Buttons, Labels and interactive widgets are made by `Tkinter` Module. 
+- The Colourful Graphical interface is designed from scratch in `Adobe Photoshop`.
+- The icon was picked up from [Pizza](https://pixabay.com/)
+
+#### Usage
++ The user can select toppings by using checkbuttons and once done, click on generate bill to Output Bill Amount in Dollars.
++ Here's a case with no Toppings selected:
+
+<img src="https://user-images.githubusercontent.com/114145569/223412783-24d0da78-7aa4-4c01-9866-2cd810473e6b.png" width=40% height=40%>
+
++ Here's a case with Toppings Capsicum and Onions selected:
+
+<img src="https://user-images.githubusercontent.com/114145569/223413901-19dbd6d8-8212-45e6-be52-b8754fbb0485.png" width=40% height=40%>    <img src="https://user-images.githubusercontent.com/114145569/223413655-70d9d4c9-1636-475d-9593-64ea9fb83480.png" width=40% height=40%>
+
+
+
