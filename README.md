@@ -10,7 +10,7 @@
 #### Interface
 
 - The Buttons, Labels and interactive widgets are made by `Tkinter` Module. 
-- The Colourful Graphical interface is designed from scratch in `Adobe Photoshop`.
+- The Background is designed from scratch in `Adobe Photoshop`.
 - The icon was picked up from [Pizza](https://pixabay.com/)
 
 #### Usage
